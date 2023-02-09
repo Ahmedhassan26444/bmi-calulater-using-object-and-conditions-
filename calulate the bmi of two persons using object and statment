@@ -1,0 +1,34 @@
+var john = {
+   fullName: 'john',
+    height: 5.7,
+    mass: 75,
+    johnBmi: function ()
+{
+  this.jBmi = this.mass / this.height^2;
+}
+};
+
+var mark = {
+    fullName: 'mark',
+    height: 6.1,
+    mass: 197,
+    markBmi: function (){
+        
+        this.mBmi =  this.mass / this.height^2;
+    }
+};
+john.johnBmi();
+mark.markBmi();
+if(john.jBmi > mark.mBmi)
+    {
+        console.log('john has greater bmi' + ' ' + john.jBmi);
+    }
+else if(mark.mBmi > john.jBmi)
+{
+    console.log('mark has greater bmi' + ' ' + mark.mBmi);
+}
+else
+    {
+        console.log('both have same bmi');
+    }
+    */
